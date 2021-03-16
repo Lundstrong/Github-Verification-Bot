@@ -36,6 +36,12 @@ client.on("message", async message => {
 
 // Server
 
+app.get("/", async (req,res) => {
+    res.json({
+        message: "ok"
+    })
+})
+
 app.get("/login", async (req,res) => {
     res.redirect("https://discord.com/oauth2/authorize?client_id=541415639525621760&redirect_uri=https%3A%2F%2Fgithub-verification-bot.sasial.repl.co%2Fcallback&response_type=code&scope=identify%20connections&prompt=none")
 })
