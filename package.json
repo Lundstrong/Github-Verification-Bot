@@ -1,0 +1,26 @@
+{
+  "name": "github-verification-bot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Lundstrong/Github-Verification-Bot.git"
+  },
+  "author": "Sasial-Dev (https://github.com/sasial-dev)",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/Lundstrong/Github-Verification-Bot/issues"
+  },
+  "homepage": "https://github.com/Lundstrong/Github-Verification-Bot#readme",
+  "dependencies": {
+    "@replit/database": "^2.0.0",
+    "axios": "^0.21.1",
+    "discord.js": "^12.5.1",
+    "express": "^4.17.1",
+    "querystring": "^0.2.1"
+  }
+}
